@@ -1,29 +1,51 @@
 # Placement Tracker
 
-A responsive frontend web application built using React.js to help students organize and track placement opportunities.
+A full-stack Placement Tracker built using **React, Express.js, and MySQL** to help students manage their placement applications.
 
 ## Features
 
-- Add company details
-- Display company application cards
-- Edit company information
-- Delete company entries
-- Responsive user interface
+- Add new companies
+- Edit company details
+- Delete companies
+- Search companies
+- Store data using MySQL
 
 ## Tech Stack
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- Vite
+- React
+- CSS
+- Node.js
+- Express.js
+- MySQL
 
-## Project Status
+## How to Run
 
-🚧 This project is currently under development.
+### Frontend
 
-The current version includes the frontend. Backend functionality and database integration will be added in future updates.
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+Make sure MySQL is running before starting the backend.
+
+## Future Improvements
+
+- User Authentication
+- Dashboard with Statistics
+- Responsive UI
+- Interview Notes
+- Deadline Notifications
+- Dark Mode
 
 ## Author
 
-Lakshit
+**Lakshit**
